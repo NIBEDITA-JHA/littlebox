@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    font-family:Roboto, sans-serif;
+
+}
+#root{
+    max-width:900px;
+    margin:40px auto;
+    background-color: #ccc;
+}
+.posts-container{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+
+}
+.post{
+    background-color: white;
+    padding:20px;
+}
+.add-container{
+    padding: 30px 0;
+    justify-content: center;
+    display:flex;
+    gap:20px;
+    flex-wrap: wrap;
+
+}
+.update-form{
+    display : flex;
+    flex-direction: column;
+    padding: 5px;
+    border : 1px solid black;
+    margin: 10px 0;
+
+
+
+}
